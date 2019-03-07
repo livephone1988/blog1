@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>@yield('title','Blog App') - just for fun</title>
-	<link rel="stylesheet" type="text/css" href="/css/app.css">
+	<link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
